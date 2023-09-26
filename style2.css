@@ -1,0 +1,16 @@
+@media (max-width:800px){
+    body{
+        background-color: red;
+    }
+}
+@media (min-width:801px) and (max-width:960px){
+    body{
+        background-color: blue;
+    }
+}
+@media (min-width:961px){
+    body{
+        background-color: green;
+    }
+}
+
