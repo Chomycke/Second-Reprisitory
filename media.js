@@ -15,12 +15,10 @@ var timeCalculator = function (value) {
 
 var wavesurfer = Object.create(WaveSurfer);
 
-<<<<<<< HEAD
-wavesurfer = WaveSurfer.create({
-=======
-wavesurfer.init({
->>>>>>> bff381e118f345cf8e4fb486bd37dcc004ff05b5
-    container: "#wave",
+
+wavesurfer = WaveSurfer.create
+wavesurfer.init({ bff381e118f345cf8e4fb486bd37dcc004ff05b5
+    : "#wave",
     waveColor: "#7D7D7D", // тут можно поменять фоновый цвет плеера
     progressColor: "#D5A216", // тут можно поменять цвет заполнения
     height: 48, // высота плеера
